@@ -21,3 +21,13 @@ print(index)
 # Replace method
 s1 = "This is a python tutorial"
 print(s1.replace("tutorial","hack"))
+
+# Split function in python
+text = "Hello world, how are you?"
+words = text.split()
+print(words)
+
+# join function in python
+w = ["hello", 'world']
+sentence = ' '.join(w)
+print(sentence)
